@@ -1,4 +1,3 @@
-```python
 import streamlit as st
 
 st.set_page_config(page_title="AX 교육 검증 시험", layout="wide")
@@ -110,5 +109,3 @@ with col3:
                 response = f"입력하신 프롬프트 '{prompt}' 에 대한 생성형 AI의 답변입니다. (Vibe Coding 지원 모드)"
                 st.markdown(response)
         st.session_state.messages.append({"role": "assistant", "content": response})
-
-```
