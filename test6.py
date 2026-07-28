@@ -87,7 +87,7 @@ with col2:
             st.warning("답안을 입력해주세요.")
 
 with col3:
-    st.subheader("🤖 생성형 AI (바이브 코딩)")
+    st.subheader("🤖 생성형 AI를 활용하세요")
     
     if "messages" not in st.session_state:
         st.session_state.messages = []
